@@ -117,8 +117,10 @@ main {
 }
 
 .pro:hover {
-  padding: 1.5rem;
-  font-size: 
+  padding: 1.7rem;
+}
+.pro:active{
+
 }
 
 .pro img {
