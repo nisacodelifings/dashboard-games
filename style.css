@@ -26,7 +26,7 @@ h3 {
 main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: radial-gradient(circle, rgba(178,227,255,1) 8%, rgba(178,227,255,1) 13%, rgba(251,241,223,1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +35,8 @@ main {
 .glass {
   background: white;
   min-height: 80vh;
-  width: 60%;
+  width: 80%;
+  margin: 5%;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
